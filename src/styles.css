@@ -37,6 +37,9 @@
 
   cursor: pointer;
 }
+.btn:disabled {
+  background-color: #acafbd;
+}
 
 .btn:last-of-type {
   margin-left: 315px;

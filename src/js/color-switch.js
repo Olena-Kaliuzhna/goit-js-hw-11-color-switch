@@ -16,13 +16,13 @@ function onBtnStarClick() {
   };
   isActive = true;
   interval = setInterval(switchColor, 1000);
-  
+  btnStartEl.disabled = true;
 };
 
 function onBtnStopClick() {
   clearInterval(interval);
   isActive = false;
- 
+ btnStartEl.disabled = false;
 };
 
 
